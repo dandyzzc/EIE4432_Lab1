@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>21015324D_Drink Ordering Form</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="styles/order.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <header> 
+            <h1> Drink Ordering Form</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="currentPage"><a href="order.html">Order</a></li>
+                <li><a href="#">Menu</a></li>
+            </ul>
+
+        </nav>
+        <main>
+            <form action="#" method="post">
+                <div class="name-input">
+                    <label for = "name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+                </div>
+                <div class="drink-select">
+                    <label for="drink">Drink:</label>
+                    <select id="drink" name="drink" required>
+                        <option value="none">Select a drink</option>
+                        <option value="BubbleMilktea">Bubble Milktea</option>
+                        <option value="IcedLatte">Iced Latte</option>
+                        <option value="PineappleJuice">Pineapple Juice</option>
+                    </select>
+                </div>
+                <div class="size-select">
+                    <label for="size">Size:</label>
+                    <input type="radio" value="small" id="small" name="size" required>
+                    <label for = "small">Small</label>
+                    <input type="radio" value="medium" id="medium" name="size" required>
+                    <label for = "medium">Medium</label>
+                    <input type="radio" value="large" id="large" name="size" required>
+                    <label for = "large">Large</label>
+                </div>
+                <div class="submission">
+                    <input type="submit" value="Place Order">
+                </div>
+                
+            </form>
+
+        </main>
+        <footer>
+            <p>@21015324D Cheung Chun Chiu Dandy - EIE4432Lab 1 Project</p>
+            <p>Contact Infomation: <a href="mailto:21015324D@connect.polyu.hk">21015324D@connect.polyu.hk</a></p>
+        </footer>
+    </body>
+</html>

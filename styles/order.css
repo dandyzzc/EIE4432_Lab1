@@ -1,0 +1,82 @@
+body{
+    background-color: #f5f5f5;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #333;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    background-color: #333;
+    color: #f5f5f5;
+    padding: 20px;
+}
+nav ul{
+    background-color: rgb(150, 150, 151);
+    list-style-type: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+
+}
+nav ul li{
+    display: inline;
+    padding: 12px 16px;
+}
+nav ul li a{
+    color: #333;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: #16d9d9;
+}
+li.currentPage{
+    background-color: #3bb97e;
+}
+main{
+    flex: 1;
+    padding: 20px;
+}
+footer{
+    background-color: #333;
+    color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+
+}
+form{
+    margin-bottom:20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.size-select{
+    display: flex;
+}
+label{
+    display: block;
+}
+input[type="text"],select{
+    width: 200px;
+    margin-bottom: 12px;
+}
+input[type="radio"]{
+    margin-left: 16px;
+}
+input[type="submit"]{
+    background-color: #333;
+    color: #f5f5f5;
+    padding:10px 20px;
+    border:0px;
+    cursor: pointer;
+}
