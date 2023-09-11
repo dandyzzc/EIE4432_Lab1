@@ -1,1 +1,1 @@
-[# EIE4432_Lab1](https://github.com/dandyzzc/EIE4432_Lab1)https://github.com/dandyzzc/EIE4432_Lab1
+https://dandyzzc.github.io/EIE4432_Lab1/
